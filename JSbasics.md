@@ -1,6 +1,6 @@
 # JavaScript Basics
 
-Console
+## Console
 
 Console.log("");
 
