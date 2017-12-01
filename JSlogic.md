@@ -1,6 +1,8 @@
   #logic
   
   ## Loops
+  For - good when you can determine how many times the loop will need to run.
+  
   Do While - will run at least once before the condition is evaluated.
   
   While - evaluates the condition before executing anything.
