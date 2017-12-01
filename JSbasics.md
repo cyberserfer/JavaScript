@@ -32,4 +32,6 @@ Session summary
     alert()
     confirm()
     Operators like ===, !=, &&, >, <, +, -, *, /
+    
+    range example: x >= 0.001 && x <= 0.009
 
