@@ -6,8 +6,8 @@ Object
 
 There are three main categories of objects:
 
-    Host Objects
-    Core Objects
+    Host Objects - objects defined by the environment in which your code runs (e.g.; a browser) 
+    Core Objects - objects built into the languange itself
     Objects defined by the code's author
 
 ## Object Literal
