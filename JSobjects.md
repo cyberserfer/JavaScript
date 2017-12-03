@@ -4,6 +4,12 @@ Object
     characteristics = properties
     actions = methods
 
+There are three main categories of objects:
+
+    Host Objects
+    Core Objects
+    Objects defined by the code's author
+
 ## Object Literal
 
 ```
