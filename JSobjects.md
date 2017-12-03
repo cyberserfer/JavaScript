@@ -1,4 +1,8 @@
 # JavaScript Objects
+Object
+
+    characteristics = properties
+    actions = methods
 
 ## Object Literal
 
@@ -45,3 +49,9 @@ function Friend(name, tshirtColor) {
 To use the object constructor you can call it and assign it to a variable.
 ```
 var denny = new Friend("Denny", "green"0");
+```
+Then you can call the values by using:
+```
+denny.name
+denny.tshirtColor
+```
