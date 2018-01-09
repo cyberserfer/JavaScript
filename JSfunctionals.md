@@ -1,4 +1,4 @@
-  #logic
+  # logic
   
   ## Loops
   For - good when you can determine how many times the loop will need to run.
@@ -20,4 +20,6 @@
     i++;
   }
   ```
+  ## Functions
   
+  funtions will return "undefined" unless there is an explicit ***return****.
