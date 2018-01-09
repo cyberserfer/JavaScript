@@ -30,6 +30,12 @@ Functions should return something.
 
 Functions are values. Can also be consider a var.
 
+Each function has access to all the variables in its ***parent function***.
+
+No function has access to the variables in its ***child functions***.
+
+Your entire .js file can be thought of as the outermost function or 'global' scope.
+
 ## Return types
 
 type of undefined retruns "undefined"
