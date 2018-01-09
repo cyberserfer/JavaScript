@@ -28,3 +28,11 @@ Functions will be denoted with parentesis ().
 
 Functions should return something.
 
+Functions are values. Can also be consider a var.
+
+## Return types
+
+type of undefined retruns "undefined"
+
+tyep of null will return "object"
+
