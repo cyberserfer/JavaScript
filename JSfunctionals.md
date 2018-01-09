@@ -1,25 +1,49 @@
-  # logic
+# logic
   
-  ## Loops
-  For - good when you can determine how many times the loop will need to run.
+## Variable Declaration and Hoisting
   
-  Do While - will run at least once before the condition is evaluated.
+variable declarations are hoisted to the top of their scope
   
-  While - evaluates the condition before executing anything.
+```
+console.log(magicalUnicorns);
+var magicalUnicorns = "awesome";
+```
+Here's how the interpreter actually reads the previous example:
+```
+var magicalUnicorns; // the declaration gets hoisted to the top of the scope by itself
+console.log(magicalUnicorns); // we log it as undefined
+magicalUnicorns = "awesome"; // the assignment stays exactly where it was
+```
+***LET***
+On the flip side, let does not allow us to do this.
+```
+console.log(magicalUnicorns); 
+let magicalUnicorns = "awesome!";
+```
+In the above example, let will produce ReferenceErrors if we try to call the variable this way.
+
+
   
-  ```
-  var i = 0;
-  
-  do {
-    console.log(i);
-    i++;
-  } while (i <= 10);
-  
-  while(i <= 10){
-    console.log(i);
-    i++;
-  }
-  ```
+## Loops
+For - good when you can determine how many times the loop will need to run.
+
+Do While - will run at least once before the condition is evaluated.
+
+While - evaluates the condition before executing anything.
+
+```
+var i = 0;
+
+do {
+  console.log(i);
+  i++;
+} while (i <= 10);
+
+while(i <= 10){
+  console.log(i);
+  i++;
+}
+```
 ## Functions
   
 funtions will return "undefined" unless there is an explicit ***return***.
