@@ -20,6 +20,11 @@
     i++;
   }
   ```
-  ## Functions
+## Functions
   
-  funtions will return "undefined" unless there is an explicit ***return****.
+funtions will return "undefined" unless there is an explicit ***return***.
+
+Functions will be denoted with parentesis (). 
+
+Functions should return something.
+
