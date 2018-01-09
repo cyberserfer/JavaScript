@@ -1,4 +1,4 @@
-# logic
+# Functional Components
   
 ## Variable Declaration and Hoisting
   
