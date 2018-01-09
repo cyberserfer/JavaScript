@@ -1,4 +1,10 @@
 # Hoisting
+Key Rules of Hoisting
+
+    Variable declarations rise to the top of their scope like hot air balloons.
+    Functions create their own scope and act like cages, preventing declarations from rising out.
+    Assignments, or = signs, act like anchors. They stay put, no matter how the code is rearranged.
+    let and const will throw an error if called before they get assigned.
 
 ## Variable Declaration and Hoisting
   
