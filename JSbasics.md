@@ -20,6 +20,8 @@ Null
 
 Undefined
 
+Objects = are items are containers that hold other primatives, arrays, etc.
+
 Session summary
 
     Strings
