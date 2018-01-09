@@ -1,6 +1,6 @@
 # JavaScript
 
-Can I use https://conisuse.com
+Can I use https://coniuse.com
 
 parallax.js
 
