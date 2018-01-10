@@ -36,6 +36,15 @@ No function has access to the variables in its ***child functions***.
 
 Your entire .js file can be thought of as the outermost function or 'global' scope.
 
+***this***
+by using this on the front of the function name it is publicly available. Without it the items within the function will be private to the function.
+
+```
+this.drinkSake = () =>{
+        this.health += 10;
+    } 
+```
+
 ## Return types
 
 type of undefined retruns "undefined"
