@@ -45,6 +45,8 @@ myCoffee.reheat();
 ## Object Constructor
 Used to create multiple instances of an object. Each instance of the object inherits the properties and methods of the constructor.
 
+***Remember: this and new go together. If you're using*** this ***in your Constructor, you must create new instances with new!***
+
 Note that the name of the object constructor starts with a capital letter.
 ```
 function Friend(name, tshirtColor) {
