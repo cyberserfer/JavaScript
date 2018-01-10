@@ -1,6 +1,6 @@
 # JavaScript Objects
 Object
-
+    an Object Constructor is a function that returns objects
     characteristics = properties
     actions = methods
 
