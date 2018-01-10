@@ -9,6 +9,8 @@ There are three main categories of objects:
     Host Objects - objects defined by the environment in which your code runs (e.g.; a browser) 
     Core Objects - objects built into the languange itself
     Objects defined by the code's author
+    
+In ES6, class methods are called 'static methods`, while instance methods are called 'prototype methods'.
 
 ## Object Literal
 
