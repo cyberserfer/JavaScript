@@ -47,6 +47,8 @@ Used to create multiple instances of an object. Each instance of the object inhe
 
 ***Remember: this and new go together. If you're using*** this ***in your Constructor, you must create new instances with new!***
 
+Every object constructor creates a second memory space for all objects created by that constructor that is accessed by proto. It is one memory space, so any changes there affect every object spit out by that constructor.
+
 Note that the name of the object constructor starts with a capital letter.
 ```
 function Friend(name, tshirtColor) {
