@@ -39,15 +39,16 @@ Every object constructor creates a second memory space for all objects created b
 
 Major PROS of Prototype
 
-One memory space for all! If you are creating lots of the same object and use prototype, it can save you significant memory
-Great for general methods for objects
-We can access prototype methods with just using .method or .property.
-The interpreter will go through all prototypes in the prototype chain to check if any of them have the called method or property before giving up (it'll return/use the first match it finds).
+    One memory space for all! If you are creating lots of the same object and use prototype, it can save you significant memory
+    Great for general methods for objects
+    We can access prototype methods with just using .method or .property.
+    The interpreter will go through all prototypes in the prototype chain to check if any of them have the called method or     property before giving up (it'll return/use the first match it finds).
+
 Major CONS of Prototype
 
-Methods generated in prototype cannot access the private variables inside the constructor function
-Lots of prototypes can be hard to read
-The way we added prototypes above, however, is really bad practice. Here's the right way:
+    Methods generated in prototype cannot access the private variables inside the constructor function
+    Lots of prototypes can be hard to read
+    The way we added prototypes above, however, is really bad practice. Here's the right way:
 ```
 // After we create our MyObjConstructor:
 MyObjConstructor.prototype.methodName = function() {
