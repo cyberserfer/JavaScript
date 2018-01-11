@@ -16,6 +16,32 @@ In ES6, class methods are called 'static methods`, while instance methods are ca
 
 While a callback is just a fancy name for a function passed as an argument to another function, it’s also the most common way of writing asynchronous code in JavaScript. By asynchronous code, we just mean the ability to divide your code into portions that run now and later. 
 
+Example:
+```
+function makePasta(pasta, makeSauce) {
+  console.log("Boiling water");
+  console.log("Putting " + pasta + " pasta in the water");
+  // create a variable for sauce!
+  var sauce = makeSauce();          // invoke makeSauce, our callback
+  console.log("Mixing sauce");
+  console.log("Pasta is done!");
+  return pasta + " Pasta with " + sauce + " sauce! Voila!";
+}
+function makePesto() {
+  console.log("Making Pesto");
+  return "pesto";
+}
+function makeAlfredo() {
+  console.log("Making Alfredo");
+  return "alfredo";
+}
+// we pass the whole makePesto recipe to makePasta!
+console.log(makePasta("Penne", makePesto));
+// notice lack of parentheses after makePesto.
+// Remember: we want to pass the function, not execute it and pass a return value.
+console.log(makePasta("Farfalle", makeAlfredo));
+```
+
 ## Object Literal
 
 ```
