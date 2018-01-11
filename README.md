@@ -11,3 +11,11 @@ parallax.js
 leap motion
 
 Modernizr - https://modernizr.com/docs/#what-is-modernizr
+
+## General Terms
+
+Stack = first in last out
+
+Queue = first in first out
+
+In JS calls go from (EventLoop --> Event Queue --> Stack) for execution. This is how JS handles ***Concurrency*** (splitting work up).
