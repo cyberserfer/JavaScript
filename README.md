@@ -18,4 +18,6 @@ Stack = first in last out
 
 Queue = first in first out
 
+Event Loop = calls functions that are tied to events
+
 In JS calls go from (EventLoop --> Event Queue --> Stack) for execution. This is how JS handles ***Concurrency*** (splitting work up).
