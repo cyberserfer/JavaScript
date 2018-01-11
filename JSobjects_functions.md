@@ -42,6 +42,35 @@ console.log(makePasta("Penne", makePesto));
 console.log(makePasta("Farfalle", makeAlfredo));
 ```
 
+Delegated
+
+```
+Here’s another example:
+
+// This is a function that just prints the result of another list of instructions
+function printResult(doSomething) {
+ var result = doSomething();         // store the return value of the callback parameter
+ console.log(result);                // print the result!
+}
+printResult(function returnFive(){ return 5 })  // this should print "5"
+```
+Pro Tip: JavaScript allows us to pass anonymous functions (e.g. remove returnFive from above and it will still work), but when debugging, giving them a name can really help!
+
+Last Example: The underscore library uses delegation exceptionally effectively: Take a look here: underscore.js
+
+Let's recreate the 'each' method using underscore!
+```
+function each(arr, callback) {
+  // loop through the array
+  for(var i = 0; i < arr.length; i++) {
+    callback(arr[i]); // invoking the callback many times... delegation!
+  }
+}
+// call the each function
+each([1,2,3], function(num) { alert(num + " I am from the callback!"); }) //so many alerts!
+```
+
+
 ## Object Literal
 
 ```
