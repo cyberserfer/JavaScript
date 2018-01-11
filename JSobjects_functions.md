@@ -44,9 +44,8 @@ console.log(makePasta("Farfalle", makeAlfredo));
 
 Delegated
 
-```
 Here’s another example:
-
+```
 // This is a function that just prints the result of another list of instructions
 function printResult(doSomething) {
  var result = doSomething();         // store the return value of the callback parameter
@@ -56,7 +55,7 @@ printResult(function returnFive(){ return 5 })  // this should print "5"
 ```
 Pro Tip: JavaScript allows us to pass anonymous functions (e.g. remove returnFive from above and it will still work), but when debugging, giving them a name can really help!
 
-Last Example: The underscore library uses delegation exceptionally effectively: Take a look here: underscore.js
+Last Example: The underscore library uses delegation exceptionally effectively: Take a look here: http://underscorejs.org/
 
 Let's recreate the 'each' method using underscore!
 ```
