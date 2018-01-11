@@ -12,6 +12,10 @@ There are three main categories of objects:
     
 In ES6, class methods are called 'static methods`, while instance methods are called 'prototype methods'.
 
+## Callbacks
+
+While a callback is just a fancy name for a function passed as an argument to another function, it’s also the most common way of writing asynchronous code in JavaScript. By asynchronous code, we just mean the ability to divide your code into portions that run now and later. 
+
 ## Object Literal
 
 ```
