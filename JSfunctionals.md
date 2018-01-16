@@ -1,5 +1,7 @@
 # Functional Components
-  
+
+Components are a piece of the whole and are reproduceable. Things like calender functions would be a functional component.
+
 ## Loops
 For - good when you can determine how many times the loop will need to run.
 
