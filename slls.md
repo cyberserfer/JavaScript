@@ -1,5 +1,6 @@
 # Singly Linked List (SLL)
 
+Not contiguous
 Data structure - formalized container
 
     Objects
