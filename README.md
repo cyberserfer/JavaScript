@@ -4,13 +4,19 @@ Editor/debugger for JavaScript: http://pythontutor.com/
 
 Can I use https://caniuse.com
 
-parallax.js
+http://parallax.js
 
-3.js
+http://3.js
 
 leap motion
 
 Modernizr - https://modernizr.com/docs/#what-is-modernizr
+
+## Useful Libraries
+
+http://www.datejs.com/
+
+https://momentjs.com/docs/#/parsing/unix-timestamp-milliseconds/
 
 ## General Terms
 
